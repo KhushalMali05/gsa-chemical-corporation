@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Production / Build
+dist/
+build/
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+
+# OS & Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
