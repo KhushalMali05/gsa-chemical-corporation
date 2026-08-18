@@ -1896,38 +1896,10 @@ textarea.form-control {
   }
 }
 
-/* Small Tablet & Large Phone (768px) */
+/* Small Tablet & Mobile Phone (768px) */
 @media (max-width: 768px) {
   .top-bar {
-    padding: 0.5rem 0;
-  }
-
-  .top-bar-content {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    gap: 0.4rem;
-  }
-
-  .top-info {
-    justify-content: center;
-    gap: 0.5rem 1.25rem;
-    font-size: 0.82rem;
-  }
-
-  .top-info-item {
-    font-size: 0.82rem;
-  }
-
-  .top-info-item svg {
-    width: 14px;
-    height: 14px;
-  }
-
-  .gst-badge {
-    font-size: 0.76rem;
-    padding: 0.15rem 0.55rem;
+    display: none;
   }
 
   .section {
@@ -2152,15 +2124,6 @@ textarea.form-control {
   .nav-links.active {
     top: 64px;
     padding: 0.5rem 1rem 1rem 1rem;
-  }
-
-  .top-info {
-    flex-direction: column;
-    gap: 0.25rem;
-  }
-
-  .top-info-item {
-    font-size: 0.75rem;
   }
 
   .hero-section {
